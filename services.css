@@ -1,0 +1,488 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+ul a{
+	color: gray;
+	text-decoration: none;
+	font-size: 20px;
+	display:inline-block;
+	padding: 20px;;
+	margin-left: 5%;
+	
+	
+
+}
+ul a:hover{
+	color:red;
+}
+
+}
+
+
+
+
+ 
+
+}
+.sec1 {
+
+margin-left: 52%;
+color: black;
+font-size: 25px;
+margin-top: 2%;
+
+
+}
+
+
+.secc2 {
+	margin-left: 3%;
+color: black;
+font-size: 25px;
+margin-top: -7%;
+
+	
+}
+.middle-img{
+	margin-top: 4%;
+	margin-left: 2%;
+	margin-right: 30%;
+	width:1800px;
+	display: inline-block;
+
+}
+
+
+
+.sec4 {
+	margin-left: 33%;
+	color: black;
+	font-size: 18px;
+	margin-top: -6%;
+	
+}
+
+.sec5 {
+	margin-left: 65%;
+	color: black;
+	font-size: 18px;
+	margin-top: -7%;
+	
+
+}
+
+
+
+.sec6{
+
+	margin-left: 1%;
+	color:black;
+	font-size: 18px;
+	margin-top:6%;
+	line-height: 32px;
+	margin-bottom:3%;
+}
+
+address p{
+	color:black;
+	font-size: 18px;
+	margin-bottom:3%;
+	margin-left: 40%;
+	font-style: italic;
+
+}
+
+
+
+.flexcont {
+
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 5%;
+	font-size: 60px;
+	
+	
+
+}
+
+.get {
+
+	
+	
+	font-size: 60px;
+	color: black;
+	margin-left: 3%;
+	
+	
+}
+
+.main2 img {
+
+	width:1800px;
+	
+
+}
+
+.logo  {
+margin-left: 88%;
+margin-top: -7%;
+padding-bottom: 1%;
+	
+}
+h1{
+
+	margin-left: -85%;
+}
+
+.flexcont11{
+
+	display: flex;
+	flex-direction: column;
+	border: 2px solid black;
+	width:820px;
+	text-align:center;
+margin-bottom: 1%;
+font-size: 40px;
+
+
+background-color: whitesmoke;
+margin-left: 5%;
+
+
+
+	
+}
+.flexcont22{
+	
+	display: flex;
+	flex-direction: column;
+	border: 2px solid black;
+	width:820px;
+	text-align:center;
+margin-bottom: 1%;
+font-size: 40px;
+
+
+background-color: whitesmoke;
+margin-left: 5%;
+}
+
+
+.flexcont33{
+
+
+	display: flex;
+	flex-direction: column;
+	border: 2px solid black;
+	width:820px;
+	text-align:center;
+margin-bottom: 1%;
+font-size: 40px;
+
+
+background-color: whitesmoke;
+margin-left: 5%;
+
+
+}
+
+
+.flexcont44{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid black;
+	width:820px;
+	text-align:center;
+margin-bottom: 1%;
+font-size: 40px;
+
+
+background-color: whitesmoke;
+margin-left:52%;
+
+
+	display: flex;
+	flex-direction: column;
+	border: 2px solid rgb(0, 0, 0);
+width:820px;
+text-align:center;
+margin-top: -64%;
+
+
+	
+}
+
+.flexcont55{
+
+	
+	display: flex;
+	flex-direction: column;
+	
+	width:820px;
+	text-align:center;
+margin-bottom: 1%;
+font-size: 40px;
+
+
+background-color: whitesmoke;
+margin-left: 5%;
+
+
+	display: flex;
+	flex-direction: column;
+	border: 2px solid black;
+width:820px;
+text-align:center;
+
+
+
+
+margin-left: 52%;
+
+	
+}
+
+.flexcont66{
+
+display: flex;
+flex-direction: column;
+border: 2px solid black;
+
+text-align:center;
+
+
+width:820px;
+text-align:center;
+margin-bottom: 1%;
+font-size: 40px;
+
+
+background-color: whitesmoke;
+
+
+
+margin-left: 52%;
+
+margin-top: 0.5%;
+
+}
+
+
+.dd{
+color:black;
+display: flex;
+padding-bottom: 2%;
+
+	
+}
+
+.lm1 a {
+
+	border: 2px solid  black;
+	background-color:whitesmoke;
+	
+	display: flex;
+	margin-left: 80px;
+	width: 330px;
+	
+	margin-bottom: 2%;
+	margin-top:3%;
+	line-height: 1.5;
+	border-radius: 12px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	padding: 8px;
+	text-decoration:none ;
+
+}
+
+.lm2 a {
+	border: 2px solid  black;
+	background-color:whitesmoke;
+	
+	display: flex;
+	margin-left: 80px;
+	width: 330px;
+	
+	margin-bottom: 2%;
+	margin-top:3%;
+	line-height: 1.5;
+	border-radius: 12px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	padding: 8px;
+	text-decoration:none ;
+
+	
+
+
+}
+
+.lm3 a {
+
+	border: 2px solid  black;
+	background-color:whitesmoke;
+	
+	display: flex;
+	margin-left: 80px;
+	width: 330px;
+	
+	margin-bottom: 2%;
+	margin-top:3%;
+	line-height: 1.5;
+	border-radius: 12px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	padding: 8px;
+	text-decoration:none ;
+
+
+}
+
+.lm4 a {
+	border: 2px solid  black;
+	background-color:white;
+	
+	display: flex;
+	margin-left: 80px;
+	width: 330px;
+	
+	margin-bottom: 2%;
+	margin-top:3%;
+	line-height: 1.5;
+	border-radius: 12px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	padding: 8px;
+	text-decoration:none ;
+}
+
+.lm5 a {
+
+	border: 2px solid  black;
+	background-color:white;
+	
+	display: flex;
+	margin-left: 80px;
+	width: 330px;
+	
+	margin-bottom: 2%;
+	margin-top:3%;
+	line-height: 1.5;
+	border-radius: 12px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	padding: 8px;
+	text-decoration:none ;
+
+
+}
+
+.lm6 a{
+	border: 2px solid  black;
+	background-color:white;
+	
+	display: flex;
+	margin-left: 80px;
+	width: 330px;
+	
+	margin-bottom: 2%;
+	margin-top:3%;
+	line-height: 1.5;
+	border-radius: 12px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	padding: 8px;
+	text-decoration:none ;
+
+
+}
+.infoimg {
+
+margin-left: 73%;
+margin-top: -22%;
+padding-bottom:90px;
+
+}
+.cool{
+
+	border: 1px solid white;
+	width: 500px;
+	margin-bottom: 2%;
+}
+
+.li {
+
+	margin-left: 4px;
+}
